@@ -34,7 +34,7 @@ public class RobotContainer {
 
     m_driveSubsystem.setDefaultCommand(
       new RunCommand(
-        () -> {m_driveSubsystem.arcadeDrive(m_driverJoystick.getRawAxis(Constants.leftStick_Y) * 0.5, m_driverJoystick.getRawAxis(Constants.rightStick_X) * 0.5);}
+        () -> {m_driveSubsystem.arcadeDrive(m_driverJoystick.getRawAxis(Constants.leftStick_Y) * 0.4, m_driverJoystick.getRawAxis(Constants.rightStick_X) * 0.5);}
         , m_driveSubsystem)
     );
   }

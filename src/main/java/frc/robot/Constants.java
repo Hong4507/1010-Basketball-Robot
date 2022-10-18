@@ -34,8 +34,8 @@ public final class Constants {
    public static final int Btn_RS = 10;
 
    // Motors (wait for correction)
-   public static final int kFrontRightMotorID = 3;
-   public static final int kFrontLeftMotorID = 1;
-   public static final int kRearRightMotorID = 4;
-   public static final int kRearLeftMotorID = 2;
+   public static final int kFrontRightMotorID = 4;
+   public static final int kFrontLeftMotorID = 2;
+   public static final int kRearRightMotorID = 3;
+   public static final int kRearLeftMotorID = 5;
 }

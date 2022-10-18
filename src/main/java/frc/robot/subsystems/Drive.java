@@ -27,9 +27,9 @@ public class Drive extends SubsystemBase {
   /** Creates a new Drive. */
   public Drive() {
     m_FrontLeft.setInverted(false);
-    m_FrontRight.setInverted(false);
+    m_FrontRight.setInverted(true);
     m_RearLeft.setInverted(false);
-    m_RearRight.setInverted(false);
+    m_RearRight.setInverted(true);
   }
 
   @Override
